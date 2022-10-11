@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(238, 241, 23);
+    display: flex;
+    justify-content: space-around;
+    height: 98px;
+    align-items: center;
+    text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    margin: 30px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    height: 70px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 180px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+}
+
+a:hover{
+    color: green;
+}
+
+.first{
+    padding-top: 170px;
+    padding-right: 690px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#web1{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.row2{
+    border-width: 3px;
+    width: 50%;
+    border-color: yellow;
+    margin-left: 400px;
+}
+
+#vir{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+.myfirst{
+    padding-top: 190px;
+    padding-left: 690px;
+    padding-right: 190px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.row1{
+    border-width: 3px;
+    width: 50%;
+    border-color: yellow;
+    margin-left: 300px;
+    text-align: center;
+}
+
+#cone1{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.fist{
+    padding-top: 170px;
+    padding-right: 690px;
+    text-align: center;
+    font-size: 3em;
+}
+#sect{
+    padding-top: 120px;
+}
+
+.cat{
+    text-align: center;
+}
+
+.entire-container{
+    clear: both;
+}
+
+.grid-items h1{
+    font-size: 1.8rem;
+    border-bottom: 5px solid yellow;
+    border-radius: 18px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-items{
+    margin: auto;
+}
+
+.last-menu li{
+    list-style-type: none;
+    margin: 30px;
+}
+
+.last-menu ul{
+    padding-left: 500px;
+    justify-content: space-around;
+}
+
+#logo1{
+    height: 90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.text, .text4{
+    color: rgb(223, 28, 28);
+    font-family: 'Lucida Sans';
+    font-size: 1.4em;
+    /* padding-top: 70px;
+    padding-bottom: 50px; */
+}
+
+.text4:hover{
+    color: blue;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer-grid-items ul li{
+    list-style: none;
+
+}
+
+.footer-grid-items{
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
